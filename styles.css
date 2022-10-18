@@ -7,6 +7,7 @@ body {
 body {
     height: 100vh;
     width: 100vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 * {
@@ -120,6 +121,13 @@ body {
     max-width: 20%;
     min-height: 148px;
     padding: 0;
+}
+
+.info-content-subtext {
+    font-size: 15px;
+
+    min-width: 148px;
+    max-width: 20%;
 }
 
 footer {
