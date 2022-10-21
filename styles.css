@@ -125,12 +125,37 @@ body {
 
 .info-content-subtext {
     font-size: 15px;
-
     min-width: 148px;
     max-width: 20%;
 }
 
+#quote-section {
+    display: flex;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+#quote-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 24px;
+    font-weight: light;
+    font-style: italic;
+}
+
+#quote-sign {
+    font-size: 20px;
+    font-style: bold;
+    align-self: flex-end;
+}
+
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
 }
